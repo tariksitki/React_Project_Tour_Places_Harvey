@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_Project_Tour_Places_Harvey/static/css/main.d5805122.css",
+    "main.js": "/React_Project_Tour_Places_Harvey/static/js/main.a74e6756.js",
+    "index.html": "/React_Project_Tour_Places_Harvey/index.html",
+    "main.d5805122.css.map": "/React_Project_Tour_Places_Harvey/static/css/main.d5805122.css.map",
+    "main.a74e6756.js.map": "/React_Project_Tour_Places_Harvey/static/js/main.a74e6756.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5805122.css",
+    "static/js/main.a74e6756.js"
+  ]
+}

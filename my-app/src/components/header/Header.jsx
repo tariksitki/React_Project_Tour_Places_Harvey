@@ -12,5 +12,5 @@ const Header = () => {
 export default Header;
 
 // default ile tek yerden export ediyoruz
-// bunu kullanmazsak sadece tek bir elementi ihrac ve alirkern 
-// {} kulllaniriiz
+// bunu kullanmazsak sadece tek bir elementi ihrac ve alirken 
+// {} kullaniriz

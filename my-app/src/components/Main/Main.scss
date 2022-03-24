@@ -8,14 +8,17 @@
     justify-content: space-evenly;
 
     .cards {
+        width: 33%;
+        height: 24.3rem;
         background-color: $cardNavBgColor;
         margin: 1rem;
         padding: 1rem;
         border-radius: 7px;
-        box-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+        box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.7);
         position: relative;
         overflow: hidden;
-        // kapsayici div relativ olmazsa body ye göre konum
+        // kapsayici div relativ olmazsa 
+        // absolute verilen child body ye göre konum alir
 
         &:hover .card-over {
             transform: translateY(0%);
@@ -25,17 +28,16 @@
     .title {
         color: white;
         padding: 1rem;
-
     }
 
     img {
-        width: 500px;
-        height: 350px;
+        width: 100%;
+        height: 18rem;
+        border-radius: 2px;
         object-fit: cover;
         // filter: grayscale(0%);
         &:hover {
             filter: grayscale(100%);
-
         }
     }
 }
@@ -47,33 +49,23 @@
 // transition: filter 0.4s ease-in-out;
 
 
-
 .card-over {
     width: 100%;
+    height: 60%;
+    overflow: auto;
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 2rem;
     transform: translateY(100%);
     z-index: 1;
     transition: transform 0.7s ease-in-out;
+    // burada neye transition verdigini yaziyor 
+    text-align: justify;
 
     p {
         color: white;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
- 
+};

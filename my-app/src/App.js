@@ -1,7 +1,7 @@
 
-import "./App.scss"
+import "./App.scss";
 import Header from "./components/header/Header";
-import Main from "./components/Main/Main"
+import Main from "./components/Main/Main";
 import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
@@ -10,11 +10,8 @@ const App = () => {
             <Navbar />
             <Header />
             <Main />
-
         </div>
     )
 }
-
-
 export default App;
 
